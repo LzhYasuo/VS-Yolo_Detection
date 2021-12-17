@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Gui">
+      <UniqueIdentifier>{6bd4017c-685a-4fb6-a9b5-8a7ba30d3693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui">
+      <UniqueIdentifier>{db55470f-bd28-4698-82ea-d5ab8368b706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Task">
+      <UniqueIdentifier>{92b4337d-c9a1-490a-8a97-2465c0bd8aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Task">
+      <UniqueIdentifier>{88f73244-4337-4c65-9295-e3e570c2b52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pub">
+      <UniqueIdentifier>{c4c6a3c5-7663-480a-83c7-22947ec6b909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pub">
+      <UniqueIdentifier>{519f3c7a-3110-44f8-8822-da618859000e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filter">
+      <UniqueIdentifier>{34879425-4709-485c-8b00-12e9c54fbc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Filter">
+      <UniqueIdentifier>{7cade360-4023-47d0-a194-0547e9a121d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\GuiBaseWidget.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\GuiOpenGLWidget.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MainWidget.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\OpenCV_Thread.cpp">
+      <Filter>Source Files\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Pub\Pub_Function.cpp">
+      <Filter>Source Files\Pub</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter\OpenCV_Filter.cpp">
+      <Filter>Source Files\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter\OpenCV_Action.cpp">
+      <Filter>Source Files\Filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Gui\GuiBaseWidget.h">
+      <Filter>Header Files\Gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Gui\GuiOpenGLWidget.h">
+      <Filter>Header Files\Gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Gui\MainWidget.h">
+      <Filter>Header Files\Gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Task\OpenCV_Thread.h">
+      <Filter>Header Files\Task</Filter>
+    </QtMoc>
+    <QtMoc Include="Pub\Pub_Function.h">
+      <Filter>Header Files\Pub</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Filter\OpenCV_Filter.h">
+      <Filter>Header Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter\OpenCV_Action.h">
+      <Filter>Header Files\Filter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
